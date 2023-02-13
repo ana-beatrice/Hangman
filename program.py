@@ -1,8 +1,10 @@
 import random
-word_list = ["aardvark", "baboon", "camel"]
+from art import logo
+from hangman_words import word_list
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 lives = 6
+print(logo)
 stages = ['''
   +---+
   |   |
